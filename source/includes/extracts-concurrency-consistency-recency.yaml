@@ -25,6 +25,14 @@ content: |
 ref: concurrent-operations-multi-document-writes
 content: |
 
+   .. include:: /includes/extracts/concurrent-operations-multi-document-writes-blurb.rst
+
+   .. include:: /includes/extracts/transactions-intro-blurb.rst
+
+---
+ref: concurrent-operations-multi-document-writes-blurb
+content: |
+
    When a single write operation (e.g.
    :method:`db.collection.updateMany()`) modifies multiple documents,
    the modification of each document is atomic, but the operation as a
@@ -33,8 +41,6 @@ content: |
    When performing multi-document write operations, whether through a
    single write operation or multiple write operations, other
    operations may interleave.
-
-   .. include:: /includes/extracts/transactions-intro-blurb.rst
 
 ---
 ref: concurrent-operations-multi-document-writes-no-isolation
