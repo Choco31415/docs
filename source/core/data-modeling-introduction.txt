@@ -95,7 +95,7 @@ A denormalized data model with embedded data combines all related data
 in a single document instead of normalizing across multiple documents
 and collections. This data model facilitates atomic operations.
 
-.. include:: /includes/extracts/concurrent-operations-multi-document-writes.rst
+.. include:: /includes/extracts/concurrent-operations-multi-document-writes-blurb.rst
 
 Multi-Document Transactions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
